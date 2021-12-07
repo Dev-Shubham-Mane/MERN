@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+
+    
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <form action="/register" method="POST">    
+    <div class="main">
+        <div class="container">
+            
+            <div class="signup-content">
+                <div class="sgu">
+                    <img src="images/sgu3.jpg" alt="">
+                </div> 
+                <div class="signup-form">
+                    
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2>student registration form</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name :</label>
+                                <input type="text" name="name" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name">PRN :</label>
+                                <input type="text" name="PRN" id="PRN" required/>
+                            </div>
+                        </div>
+                     
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">Gender :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="male" checked>
+                                <label for="male">Male</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Sports :</label>
+                                <div class="form-select">
+                                    <select name="Sports" id="Sports">
+                                        <option value=""></option>
+                                        <option value="Cricket">Cricket</option>
+                                        <option value="Football">Football</option>
+                                        <option value="Table Tennis">Table Tennis</option>
+                                        <option value="Badminton">Badminton</option>
+                                        <option value="Kabaddi">Kabaddi</option>
+                                         <option value="Vollyball">Vollyball</option>
+                                          <option value="Tennis">Tennis</option>
+                                           <option value="Rubby">Rubby</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">Year :</label>
+                                <div class="form-select">
+                                    <select name="year" id="year">
+                                        <option value=""></option>
+                                        <option value="FY">FY</option>
+                                        <option value="SY">SY</option>
+                                        <option value="TY">TY</option>
+                                        <option value="LY">LY</option>
+                                        
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">AGE :</label>
+                            <input type="text" name="age" id="age">
+                        </div>
+                       
+                       
+                        <div class="form-group">
+                            <label for="email">Email ID :</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone NO :</label>
+                            <input type="phone" name="phone" id="phone" required/>
+                        </div>
+
+                      
+                        <div class="form-submit">
+                            <input type="reset" value="Reset All" class="reset" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </form>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

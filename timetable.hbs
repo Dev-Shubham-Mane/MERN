@@ -1,0 +1,191 @@
+<head>
+   <style>
+BODY {
+  font-family: Trebuchet MS;
+  margin:20px;
+  background-color: #580a1e;
+}
+
+H1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.myTimetable {
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.myTimetable THEAD{
+  color: #FFFFFF;
+}
+
+.myTimetable TBODY {
+  background-color: #AAAAFF;
+}
+
+.myTimetable TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: #FF0066;
+  font-weight: bold;
+}
+
+.break, .lunch {
+  background-color: #FF0066 !important;
+  font-style: italic;
+}
+
+.subject {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.room {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+</style>
+</head>
+
+<H1>Sports Timetable</H1>
+<TABLE class="myTimetable"> 
+  <THEAD>
+    <TR>
+      <TH></TH>
+      <TH>Monday</TH>
+      <TH>Tuesday</TH>
+      <TH>Wednesday</TH>
+      <TH>Thursday</TH>
+      <TH>Friday</TH>     
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>10AM - 11AM</TD>
+      <TD>
+        <div class="subject">Cricket</div>
+        <div class="room">A1</div>
+      </TD>
+      <TD>
+        <div class="subject">Football</div>
+        <div class="room">A2</div>
+      </TD>
+      <TD>        
+        <div class="subject">Cricket</div>
+        <div class="room">B2</div>
+      </TD>
+      <TD>        
+        <div class="subject">Kabbdi</div>
+        <div class="room">A1</div>
+      </TD>
+       <TD>        
+         <div class="subject">Vollyball</div>
+        <div class="room">B1</div>
+      </TD>     
+    </TR>
+    <TR>
+      <TD>11AM -12PM</TD>
+      <TD>        
+        <div class="subject">Long Jump</div>
+        <div class="room">A1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Table Tennis</div>
+        <div class="room">B3</div>
+      </TD>
+      <TD>        
+        <div class="subject">cricket</div>
+        <div class="room">C1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Football</div>
+        <div class="room">A2</div>
+      </TD>
+      <TD>        
+        <div class="subject">Badminton</div>
+        <div class="room">A1</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD colspan="6" class="break">Lunch</TD>
+      </TR>
+      <TR>
+      <TD>1PM -3PM</TD>
+      <TD>        
+        <div class="subject">Ruby</div>
+        <div class="room">All</div>
+      </TD>
+      <TD>        
+        <div class="subject">Hockey</div>
+        <div class="room">All</div>
+      </TD>
+      <TD>        
+        <div class="subject">Basketball</div>
+        <div class="room">All</div>
+      </TD>
+      <TD>        
+        <div class="subject">Basketball</div>
+        <div class="room">ALL</div>
+      </TD>
+      <TD>        
+        <div class="subject">Vollyball</div>
+        <div class="room">All</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD colspan="6" class="lunch">Break</TD>
+    </TR>
+      <TR>
+      <TD>3:15PM -4:15PM</TD>
+      <TD>        
+        <div class="subject">Hourse Riding</div>
+        <div class="room">B3</div>
+      </TD>
+      <TD>        
+        <div class="subject">Cricket</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Vollyball</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Football</div>
+        <div class="room">B1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Football</div>
+        <div class="room">TBD</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>4:15PM -5:30PM</TD>
+      <TD>        
+        <div class="subject">Kabbdi</div>
+        <div class="room">C1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Table Tennis</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Kabbdi</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Ruby</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Long Jump</div>
+        <div class="room">TBD</div>
+      </TD>
+    </TR>
+   </TBODY>
+  </TABLE>

@@ -1,0 +1,20 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node connection.js",
+    "dev": "nodemon app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.14",
+    "tslib": "^2.3.0"
+  }
+}

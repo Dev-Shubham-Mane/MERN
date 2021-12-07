@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>sgu.in</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style1.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+         <style>
+BODY {
+  font-family: Trebuchet MS;
+  margin:20px;
+  
+}
+
+H1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.myTimetable {
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.myTimetable THEAD{
+  color: #FFFFFF;
+}
+
+.myTimetable TBODY {
+  background-color: #fdfdfd;
+}
+
+.myTimetable TD {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: #58cee2;
+  font-weight: bold;
+}
+
+.break, .lunch {
+  background-color: #dfdfe6 !important;
+  font-style: italic;
+}
+
+.subject {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.room {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+</style>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header id="home">
+        <!-- header inner -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo"> <a href="index"><img src="images/logo.png" alt="#"></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <div class="menu-area">
+                            <div class="limit-box">
+                                <nav class="main-menu">
+                                    <ul class="menu-area-main">
+                                        <li class="active"><a href="#home">Home</a></li>
+                                        <li><a href="#about">About Us</a></li>
+                                        <li><a href="#Coach">Coach</a></li>
+                                        <li><a href="#Info">Info</a></li>
+                                        <li><a href="#contact">Time Table</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+    <!-- end header -->
+
+
+    <section class="slider_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="full">
+                        <h1><strong class="cur">Sports Event</strong><br>Department of CSE</h1>
+                            <p>Click on register now button for this years sports registration</p>
+                            <div class="button_section"><a class="main_bt" href="register">Resgster Now</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="full text_align_center">
+                        <img class="slide_img" src="images/slider_img.png" alt="#" /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <div id="about" class="about layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/about_img.png" alt="#" />
+                </div>
+                <div class="col-md-6">
+                    <div class="heading margin_top_30">
+                        <h2>About our ACSES</h2>
+                    </div>
+                    <div class="full margin_top_20">
+                        <p>Computer Science and Engineering Department is established with an aim of building creative IT professionals to acquire core knowledge and skills required by IT industry or research institutes to meet global challenges. The courses are taught by the experienced, qualified faculty, industry experts and the global researchers. The laboratories are well equipped with advanced software, high configuration computer systems for technical training and research work. Knowledge sharing sessions are conducted by experts and alumni to keep up with the rapidly evolving technology on regular basis.</p>
+                    </div>
+                    <div class="full margin_top_30">
+                        <a class="main_bt" href="http://www.sanjayghodawatuniversity.ac.in/cse-ACSES.php">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- section -->
+    <div id="Coach" class="section dark_bg layout_padding left_white">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                    <div class="heading full text_align_center">
+                        <h2 class="white_font full text_align_center">Our Coaches</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                    <i class="material-icons" style="font-size:350px">person</i>
+                    </div>
+                    <div class="full text_align_center">
+                        <h3 class="white_font">Dr. S. S. Patel<br><strong class="theme_blue">Athletics Coach</strong></h3>
+                    </div>   
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                    <i class="material-icons" style="font-size:350px">person</i>
+                    </div>
+                    <div class="full text_align_center">
+                    <h3 class="white_font">Mrs. Sarita P. Patil<br><strong class="theme_blue">Indor games Coach</strong></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                        
+                    <i class="material-icons" style="font-size:350px">person</i>
+                    </div>
+                    <div class="full text_align_center">
+                        <h3 class="white_font">Mr. Shrishail. S. Salgare<br><strong class="theme_blue">Outdoor Games Coach</strong></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    <!-- section -->
+    <div class="section layout_padding">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                    <div class="full main_heading_1">
+                        <h2>ACSES</h2>
+                        <p>“The stuff that made you afraid yesterday, eventually you’re going to get used to it. Presenting yourself on air, saying a joke, asking a girl out. You always have that fear. What if I do this wrong? Or what if I set my goal too high? It’s going to devastate me. I’m going to disappoint a lot of people, so I might as well play it safe. Life takes off on the other side of fear.”
+
+ </p>
+                    </div>   
+                    <div class="full margin_top_30">
+                        <a class="main_bt" href="http://www.sanjayghodawatuniversity.ac.in/dept-cse">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 margin_top_30 padding_right_0">
+                    <div class="full">
+                        <img src="images/green_fr.png" alt="#" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+<!-- section -->
+    <div id="Info" class="section dark_bg layout_padding right_white">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                    <div class="heading full text_align_center">
+                        <h2 class="white_font full text_align_center">Our Info</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 margin_top_30">
+                    <div class="full" style="overflow: hidden;">
+                    <div class="full bl">
+                        <img class="img-responsive" src="images/blog1.png" alt="#" />
+                    </div>
+                    <div class="full blog_blue text_align_center">
+                        <h5 class="white_font">Mech</h3>
+                        <p>They are 2020 winners of SGU Innter Sports.</p>
+                    </div> 
+                     </div>  
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full" style="overflow: hidden;">
+                    <div class="full bl">
+                        <img class="img-responsive" src="images/blog2.png" alt="#" />
+                    </div> 
+                    <div class="full blog_blue text_align_center">
+                        <h5 class="white_font">Trophy</h3>
+                        <p>Rank No.1 will Got this Shinning Trophy.</p>
+                    </div>
+                     </div>
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full" style="overflow: hidden;">
+                    <div class="full bl">
+                        <img class="img-responsive" src="images/blog3.png" alt="#" />
+                    </div> 
+                    <div class="full blog_blue text_align_center">
+                        <h5 class="white_font">Civil </h3>
+                        <p>They are 2019 winners of SGU Innter Sports.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    <!-- section -->
+    <div id="contact" class="section layout_padding">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-6 padding_left_0">
+                    <div class="full">
+                        <img class="float-left" src="images/fruit_img.jpg" alt="#" />
+                    </div>
+                </div>
+               <div class="col-md-6">
+                <div class="heading">
+                        <h2>Sports <strong class="theme_blue">Time Table</strong></h2>
+                    </div>
+                    <div class="full margin_top_20">
+                        
+<H1>Sports Timetable</H1>
+<TABLE class="myTimetable"> 
+  <THEAD>
+    <TR>
+      <TH></TH>
+      <TH>Monday</TH>
+      <TH>Tuesday</TH>
+      <TH>Wednesday</TH>
+      <TH>Thursday</TH>
+      <TH>Friday</TH>     
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>10AM - 11AM</TD>
+      <TD>
+        <div class="subject">Cricket</div>
+        <div class="room">A1</div>
+      </TD>
+      <TD>
+        <div class="subject">Football</div>
+        <div class="room">A2</div>
+      </TD>
+      <TD>        
+        <div class="subject">Cricket</div>
+        <div class="room">B2</div>
+      </TD>
+      <TD>        
+        <div class="subject">Kabbdi</div>
+        <div class="room">A1</div>
+      </TD>
+       <TD>        
+         <div class="subject">Vollyball</div>
+        <div class="room">B1</div>
+      </TD>     
+    </TR>
+    <TR>
+      <TD>11AM -12PM</TD>
+      <TD>        
+        <div class="subject">Long Jump</div>
+        <div class="room">A1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Table Tennis</div>
+        <div class="room">B3</div>
+      </TD>
+      <TD>        
+        <div class="subject">cricket</div>
+        <div class="room">C1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Football</div>
+        <div class="room">A2</div>
+      </TD>
+      <TD>        
+        <div class="subject">Badminton</div>
+        <div class="room">A1</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD colspan="6" class="break">Lunch</TD>
+      </TR>
+      <TR>
+      <TD>1PM -3PM</TD>
+      <TD>        
+        <div class="subject">Ruby</div>
+        <div class="room">All</div>
+      </TD>
+      <TD>        
+        <div class="subject">Hockey</div>
+        <div class="room">All</div>
+      </TD>
+      <TD>        
+        <div class="subject">Basketball</div>
+        <div class="room">All</div>
+      </TD>
+      <TD>        
+        <div class="subject">Basketball</div>
+        <div class="room">ALL</div>
+      </TD>
+      <TD>        
+        <div class="subject">Vollyball</div>
+        <div class="room">All</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD colspan="6" class="lunch">Break</TD>
+    </TR>
+      <TR>
+      <TD>3:15PM -4:15PM</TD>
+      <TD>        
+        <div class="subject">Hourse Riding</div>
+        <div class="room">B3</div>
+      </TD>
+      <TD>        
+        <div class="subject">Cricket</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Vollyball</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Football</div>
+        <div class="room">B1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Football</div>
+        <div class="room">TBD</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>4:15PM -5:30PM</TD>
+      <TD>        
+        <div class="subject">Kabbdi</div>
+        <div class="room">C1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Table Tennis</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Kabbdi</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Ruby</div>
+        <div class="room">TBD</div>
+      </TD>
+      <TD>        
+        <div class="subject">Long Jump</div>
+        <div class="room">TBD</div>
+      </TD>
+    </TR>
+   </TBODY>
+  </TABLE>
+                        
+                    </div>   
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer layout_padding">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Contact Us</h3>
+                            <p>registrar@sgu.ac.in<br>
+Toll Free : 1800 31300 1566<br>
++91 90110 39800 / 90110 22567<br>
+Sanjay Ghodawat University<br>
+Kolhapur - Sangli Highway,<br>
+A/p Atigre - 416 118<br>
+Tal. - Hatkanangale<br>
+Dist. - Kolhapur<br>
+Maharashtra, India<br></p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Pages</h3>
+                            <p>
+                              <a href="#home">Home</a><br>
+                              <a href="#about">About Us</a><br>
+                              <a href="#Coach">Coach</a><br>
+                              <a href="#Info">Info</a><br>
+                              <a href="#contact">TimeTable</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Info</h3>
+                            <p><span>Department Of Civil<br>are the definding Champions.</span></p>
+                            <p class="margin_top_20"><span>Department of Mech,<br>are 2019 Champions.</span></p>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Feedback</h3>
+                            <p>
+                                <form>
+                                    <input type="text" name="text" placeholder="Gives us your Feddback" /> 
+                                    <button>Submit</button>
+                                </form>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright 2021 All Right Reserved By <a href="">Shubham Mane & Mujahid Jamadar</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
